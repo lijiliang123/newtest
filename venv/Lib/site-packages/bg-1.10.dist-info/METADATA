@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: bg
+Version: 1.10
+Summary: Implementation of Breakpoint Graph data structure
+Home-page: https://github.com/aganezov/bg
+Author: Sergey Aganezov
+Author-email: aganezov@cs.jhu.edu
+License: MIT
+Keywords: breakpoint graph,data structures,python
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: coverage
+Requires-Dist: decorator
+Requires-Dist: networkx (>=2)
+Requires-Dist: nose
+Requires-Dist: marshmallow
+Requires-Dist: ete3
+Requires-Dist: six
+Requires-Dist: mock
+Requires-Dist: pytest
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: enum-compat
+
+UNKNOWN
+
+
