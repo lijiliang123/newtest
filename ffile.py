@@ -56,4 +56,5 @@ with open('部署手册.txt', 'w') as f:
 # 读出文件
 with open('部署手册.txt', 'r') as f:
     nr = f.read()
-    print(nr)
+    if len(nr) > 0:
+        print(nr)

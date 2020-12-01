@@ -12,8 +12,8 @@ hang = 0
 lie = 0
 
 for lie in range(1, 10):
-    print('*' * 20)
-    print('现在打印', lie, '的乘法口诀')
+    print('*' * 20, end='')
+    print('现在打印', lie, '的乘法口诀', end='')
     print('*' * 20)
 
     for hang in range(lie, 10):

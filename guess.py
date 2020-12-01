@@ -1,3 +1,19 @@
+import random
+
+numCount = 0
+sjList = []
+while numCount <= 9:
+    sjsh = random.randint(0, 10)
+    sjList.append(sjsh)
+    numCount += 1
+for i in range(len(sjList)):
+    print('第', i+1, '个数：', end='')
+    print(sjList[i])
+
+
+
+
+"""
 number=70
 guess=int(input('Please input any number:'))
 
@@ -9,3 +25,4 @@ elif guess<number:
 else:
     print("正确答案要比这个数小一些，请继续玩游戏！")
 print('结束')
+"""

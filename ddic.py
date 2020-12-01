@@ -30,7 +30,7 @@ for i in range(geshu):
     print('请输入第', i+1, '个联系人信息：', end='')
     nmad[str(input('请输入姓名：'))] = str(input('请输入地址：'))     # key=value 赋值形式
 else:
-    print('您共输入了 ', geshu, ' 条记录,您的输入已结束！现在输出您输入的结果。')
+    print('您共输入了 ', geshu, ' 条记录,输出您的输入已结束！现在您输入的结果。')
     print('-'*40)  #输出40个-字符
 
 #del nmad['']         #删预置的第1条数据，按key删除

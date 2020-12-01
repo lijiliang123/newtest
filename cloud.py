@@ -58,5 +58,7 @@ print(abc)
 for item2 in abc:
     print(item2, '+++', end='')
 
+print()
+
 d1, *d2, d3 = abc  # 星号在deque()实例中的应用，星号标的变量输出为List列表
 print('{0}++{1}++{2}'.format(d1, d2, d3))  # 字符串的格式化输出
