@@ -14,7 +14,7 @@ for i in range(len(sjList)):          #读出列表对象中的item
     print('第', i+1, '个数：', end='')
     print(sjList[i])
 
-    wjnr = '第' + str(i+1) + '个数=' + str(sjList[i])
+    wjnr = '第' + str(i+1) + '个数=' + str(sjList[i]) + '\n'
     with open('随机数', 'ab') as f:
         #pickle.dump(sjList[i], f)
         pickle.dump(wjnr, f)
