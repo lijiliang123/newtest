@@ -2,3 +2,7 @@ for i in range(0, 10, 1):  #第1个参数代表起始值，第2个参数代表�
     print(i, end=' ')
 else:                   # for, while, 循环都可以用else子句
     print("\nThe for loop statement is over.")
+
+
+for i in range(50):
+    print(i, end='/*/')

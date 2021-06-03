@@ -1,11 +1,13 @@
 import pickle
 import os
 
+
 class hello:
      #实例初始化时调用方法
     def __init__(self,name):
         self.dd=name
         self.sd=name+':'+name
+        print('1202初始化.....')
 
     #无参数方法，Python类的方法的参数列表，必须至少有一个self 参数，调用时则可以不赋值，相当于JAVA中的this
     def hhle(self):
@@ -121,3 +123,16 @@ ruotong = abc('Guanruotong', 'Guangzhou', 5)
 ruotong.call()
 chunhui = abc('Chunhui', 'Guangzhou', 10)
 chunhui.call()
+ruotong.call()
+chunhui.call()
+
+class book :
+    def __init__(self, name, author, publishtime):
+        self.name = name
+        self.author = author
+        self.publishtime = publishtime
+        print('book initializing......')
+
+    def input(self, count):
+        self.count = count
+
