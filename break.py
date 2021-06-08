@@ -10,6 +10,6 @@ print('您踩雷了，游戏结束！')
 
 
 '''
-THIS IS AMENDMENT BY THOMAS.
+THIS IS AMENDMENT BY THOMAS ON JUNE 8th, 2021.
 
 '''
