@@ -4,7 +4,7 @@ while True:
         break
     else:
         print('您输入的字符数为:', len(s), end='。  ')
-        print('请继续努力，加油啊！')
+        print('没躺枪，幸运！')
 
 print('您踩雷了，游戏结束！')
 
