@@ -14,7 +14,7 @@ rowCount = int(input('请输入您需要打印的三角形的行数: '))
 
 # 求出每行输出的*的数量，并放入list中
 for i in range(1, rowCount*2, 2):
-    columnCount = i
+    # columnCount = i
     columnList.append(i)
     # print(columnCount, '+', end='')
 
