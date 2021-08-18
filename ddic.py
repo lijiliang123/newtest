@@ -5,8 +5,12 @@
 
 nm = 0
 ad = 1
-di = {}.fromkeys([nm, ad], 'thomas')  #使用fromkeys方法为字典赋初始值
+ad2 = 2
+ad3 = 3
+di = {}.fromkeys([nm, ad, ad2, ad3], 'thomas')  #使用fromkeys方法为字典赋初始值
 print(di)
+di.clear()
+print('清除后：', di)
 
 dic1 = {'数学': '90', '语文': '95', '英语': '100'}
 dic1['历史'] = 100  #字典追加元素
