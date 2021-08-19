@@ -59,3 +59,11 @@ print(df)
 print(df.set_index('month', drop=True))
 print(df.set_index(['year', 'month'], drop=True))
 
+arrays = [[1, 2, 3], ['a', 'b', 'c'], 33, 44]
+for a in range(len(arrays)):
+    print(arrays[a], end='++')
+
+print('\n')
+
+for a in arrays:
+    print(a, end='**')
