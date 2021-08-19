@@ -54,7 +54,7 @@ print(data.tail(5))     # 展示数据的后5行
 
 df = pd.DataFrame({'month': [1, 4, 7, 10],
                    'year': [2012, 2014, 2013, 2014],
-                   'sale':[55, 40, 84, 31]})
+                   'sale': [55, 40, 84, 31]})
 print(df)
 print(df.set_index('month', drop=True))
 print(df.set_index(['year', 'month'], drop=True))
@@ -67,3 +67,11 @@ print('\n')
 
 for a in arrays:
     print(a, end='**')
+
+print('\n')
+
+das = pd.read_csv('Uscore.csv')
+print(das)
+# das.set_index(['语文', '数学', '英语', '体育'])
+# print(das['语文']['李四'])
+print(das['语文'][1])     # 引用索引，先列后行
