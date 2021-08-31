@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+from matplotlib import pyplot as plt
 
 das = pd.read_csv('Uscore.csv', usecols=['语文', '数学', '英语'])
 print(das)
