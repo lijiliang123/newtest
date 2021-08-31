@@ -1,0 +1,13 @@
+﻿股票市场统计表,,,,,,,,
+Statistics of Stock Market ,,,,,,,,
+,股票筹资额（亿元）,成交量（百万股）,成交金额（亿元）,期末总股本（亿股）,期末市价总值（亿元）,期末上市公司数（家）,期末收盘指数(Index),
+,,,,,,,上证综合指数,深证成份指数
+,Equity Financing,Volume of Trading,Turnover of Trading,Volume Issued,Total Market Capitalization at End of Period,Number of listed company,Shanghai Stock Exchange Composite Index ,Shenzhen Stock Exchange Componet Index
+,(100 Million Yuan),(One Million Shares),(100 Million Yuan),at End of Period,(100 Million Yuan),at End of Period ,,
+,,,,(100 Million Shares) ,,,,
+2021.01 ,1525,1463451,218714,65652,801629,4186,3483,14822
+2021.02 ,794,1017533,144719,65886,800790,4214,3509,14507
+2021.03 ,1084,1570491,185959,66026,783730,4248,3442,13779
+2021.04 ,926,1285316,158610,66236,803272,4302,3447,14439
+2021.05 ,882,1243894,159055,66696,850519,4338,3615,14996
+2021.06 ,1367,1500867,209109,67592,863734,4386,3591,15162
