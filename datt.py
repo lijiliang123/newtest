@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 
 '''
 一维数组：
@@ -70,8 +71,4 @@ for a in arrays:
 
 print('\n')
 
-das = pd.read_csv('Uscore.csv')
-print(das)
-# das.set_index(['语文', '数学', '英语', '体育'])
-# print(das['语文']['李四'])
-print(das['语文'][1])     # 引用索引，先列后行
+
