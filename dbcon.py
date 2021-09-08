@@ -28,7 +28,7 @@ for i in range(number):
 #insert into表后，要执行commit，才能正式写入数据库
 db.commit()
 
-# 使用 fetchone() 方法获取一条数据
+# 使用 fetchone() 方据法获取一条数
 #data = cursor.fetchone()
 data = cursor.fetchall()
 
