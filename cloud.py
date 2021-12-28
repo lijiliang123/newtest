@@ -15,13 +15,13 @@ print(middle)
 print(round(sum(middle) / len(middle)))
 
 # 以下为：序列化文件存储与反序列化文件输出
-
+# amendment on 2021-12-28
 
 inputscore = []
 count = 0
 flag = True
 while flag:
-    inputscore.append(int(input('请输入多少数字：')))
+    inputscore.append(int(input('请输入想要的数字：')))
     count += 1
     if count == 3:
         flag = False
@@ -60,5 +60,5 @@ for item2 in abc:
 
 print()
 
-d1, *d2, d3 = abc  # 星号在deque()实例中的应用，星号标的变量输出为List列表
+d1, *d2, d3 = abc  # 星号在deque()实例中的应用，星号标的为Li变量输出st列表
 print('{0}++{1}++{2}'.format(d1, d2, d3))  # 字符串的格式化输出
