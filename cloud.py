@@ -15,7 +15,12 @@ print(middle)
 print(round(sum(middle) / len(middle)))
 
 # 以下为：序列化文件存储与反序列化文件输出
-# amendment on 2021-12-28
+
+'''
+  amendment by thomas on 2021-12-28
+  remind myself
+'''
+
 
 inputscore = []
 count = 0
