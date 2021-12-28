@@ -21,7 +21,7 @@ inputscore = []
 count = 0
 flag = True
 while flag:
-    inputscore.append(int(input('请输入数字：')))
+    inputscore.append(int(input('请输入多少数字：')))
     count += 1
     if count == 3:
         flag = False
