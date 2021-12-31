@@ -25,7 +25,7 @@ print('总记录数：', rs, '条')
 # 利用查询结果（int），cur.fetchone 逐条输出数据库记录
 for i in range(rs):
     print(cur.fetchone())
-    print('*'*60)
+    print('*'*50)
 
 # 程序结束，关闭数据库实例的游标
 cur.close()
