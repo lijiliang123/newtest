@@ -8,6 +8,8 @@ class Student:
     def __init__(self, name, score):
         self.name = name
         self.score = score
+        # 类里面的私有属性和私有方法以双下划线__开头。私有属性或方法不能在类的外部被使用或直接访问。
+        self.__dscore = score * 2
         # 类变量引用，统计对象初始化次数
         Student.number = Student.number + 1
 
@@ -22,9 +24,14 @@ class Student:
 
     # 定义静态方法，前面需要用到修饰符@staticmethod
     @staticmethod
-    # 静态方法定义，无self或cls参数
+    # 静态方法定义，既无self参数，也无cls参数
     def say():
         print("我是一个静态方法！无self参数，也无cls参数！")
+
+    # @property装饰器，将私有属性通过函数的方式伪装成对象可直接访问的公有属性
+    @property
+    def dscore(self):
+        print("name:{}, double score:{}".format(self.name, self.__dscore))
 
 
 # 定义match数据字典结构，用于将数字，转化为对应的中文大写
@@ -46,6 +53,8 @@ while times >= 1:
     # 数据字典结构，用[key]直接访问,取出value后与前一个字符串拼接
     stu = Student("张" + match[times], random.randint(10, 100))
     print(stu.show())
+    # property装饰器伪装后的私有变量，以属性形式直接引用
+    print(stu.dscore)
     times = times - 1
     continue
 
