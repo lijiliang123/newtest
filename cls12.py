@@ -20,6 +20,12 @@ class Student:
     def total(cls):
         print("instance number:{0}".format(Student.number))
 
+    # 定义静态方法，前面需要用到修饰符@staticmethod
+    @staticmethod
+    # 静态方法定义，无self或cls参数
+    def say():
+        print("我是一个静态方法！无self参数，也无cls参数！")
+
 
 # 定义match数据字典结构，用于将数字，转化为对应的中文大写
 match = {1: "一",
@@ -45,3 +51,5 @@ while times >= 1:
 
 # 类方法调用：类名.方法名
 Student.total()
+# 静态方法调用：类名.方法名，或对象名.方法名
+Student.say()
