@@ -70,7 +70,7 @@ class SubStudent(Student):
         # 调用父类进行继承属性的初始化
         Student.__init__(self, name, score)
         self.age = age
-        print("子类正在初始化...哦...")
+        print("子类正在初始化...哦...请稍候...")
 
     # 重写父类的show方法,增加输出age属性的值
     def show(self):
