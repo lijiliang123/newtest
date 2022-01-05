@@ -73,10 +73,17 @@ class SubStudent(Student):
         print("子类正在初始化...哦...请稍候...")
 
     # 重写父类的show方法,增加输出age属性的值
-    def show(self):
+    # 加双下划线后，__show方法，为私有方法，外部对象不能直接访问
+    def __show(self):
         Student.show(self)
         print("age:{}".format(self.age))
 
+    # 将私有方法包装成通用方法，供对象实例调用
+    def reshow(self):
+        # 类内部通过：类名.私有方法名（self），调用类的私有方法
+        SubStudent.__show(self)
+
 
 substu1 = SubStudent("儿子", 90, 18)
-substu1.show()
+# substu1.show()
+substu1.reshow()
