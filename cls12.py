@@ -20,7 +20,7 @@ class Student:
     @classmethod
     # 类方法，参数固定为cls
     def total(cls):
-        print("instance number:{0}".format(Student.number))
+        print("instance number:{0}".format(cls.number))
 
     # 定义静态方法，前面需要用到修饰符@staticmethod
     @staticmethod
@@ -46,7 +46,6 @@ match = {1: "一",
          9: "九",
          10: "十"}
 
-
 times = 10
 while times >= 1:
     stu = "stu" + str(times)
@@ -62,3 +61,22 @@ while times >= 1:
 Student.total()
 # 静态方法调用：类名.方法名，或对象名.方法名
 Student.say()
+
+
+# 定义子类，从父类继续属性（name, score），并增加新的属性age
+class SubStudent(Student):
+
+    def __init__(self, name, score, age):
+        # 调用父类进行继承属性的初始化
+        Student.__init__(self, name, score)
+        self.age = age
+        print("子类正在初始化...哦...")
+
+    # 重写父类的show方法,增加输出age属性的值
+    def show(self):
+        Student.show(self)
+        print("age:{}".format(self.age))
+
+
+substu1 = SubStudent("儿子", 90, 18)
+substu1.show()
