@@ -26,7 +26,7 @@ class Student:
     @staticmethod
     # 静态方法定义，既无self参数，也无cls参数
     def say():
-        print("我是一个静态方法！无self参数，也无cls参数！")
+        print("我是一个静态方法！既无self参数，也无cls参数！")
 
     # @property装饰器，将私有属性通过函数的方式伪装成对象可直接访问的公有属性
     @property
