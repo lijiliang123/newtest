@@ -40,7 +40,7 @@ print("The reverse character of the string is:", reverse_char)
 
 
 '''
-    ///第二部分：检查字符串是否为空///
+    ///第二部分：返回某字母出现的次数///
 '''
 
 import re
