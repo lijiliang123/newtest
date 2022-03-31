@@ -5,7 +5,7 @@
     Let's begin from March, 31st, 2022.
 """
 '''
-    第一部分：字符串切片操作
+    ///第一部分：字符串切片操作///
 '''
 
 test = "python programming"
@@ -39,3 +39,15 @@ reverse_char = test[::-1]
 print("The reverse character of the string is:", reverse_char)
 
 
+'''
+    ///第二部分：检查字符串是否为空///
+'''
+
+import re
+from collections import Counter
+
+sentence = "Canada is located in the northern part of North America"
+counter = len(re.findall('a', sentence))
+print(counter)
+counter = sentence.count('a')
+print(counter)
