@@ -51,3 +51,6 @@ counter = len(re.findall('a', sentence))
 print(counter)
 counter = sentence.count('a')
 print(counter)
+
+g = (x*x for x in range(10))
+print(g)
