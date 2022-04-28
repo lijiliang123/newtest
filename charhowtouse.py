@@ -31,13 +31,12 @@ print("The except last character of the string is:", except_last)
 between_two = test[2:-2]
 print("The between two character of the string is:", between_two)
 
-#跳过一个字符输出
-skip_one = test[0:18:2]  #[start:stop:step]
+# 跳过一个字符输出
+skip_one = test[0:18:2]  # [start:stop:step]
 print("The skip one character of the string is:", skip_one)
-#反转输出字符串
+# 反转输出字符串
 reverse_char = test[::-1]
 print("The reverse character of the string is:", reverse_char)
-
 
 '''
     ///第二部分：返回某字母出现的次数///
@@ -52,5 +51,7 @@ print(counter)
 counter = sentence.count('a')
 print(counter)
 
-g = (x*x for x in range(10))
+g = (x * x for x in range(10))
 print(g)
+
+
