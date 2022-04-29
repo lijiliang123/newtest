@@ -49,7 +49,7 @@ f.close()
 
 '''
 # 写入文件
-with open('部署手册.txt', 'w') as f:
+with open('部署手册.txt', 'a') as f:
     f.write(content)
 
 
