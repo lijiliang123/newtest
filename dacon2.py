@@ -24,17 +24,17 @@ ins_sql = '''INSERT INTO mybook_tbl \
 
 """
 创建表语句
-crt_sql = """CREATE TABLE person_salary_tbl (
+crt_sql ='''CREATE TABLE person_salary_tbl (
    id INT,
    FIRST_NAME CHAR(20) NOT NULL,
    LAST_NAME CHAR(20),
-   INCOME FLOAT )"""
+   INCOME FLOAT )'''
 
 cur.execute(crt_sql)
 """
 
 # 游标执行SQL语句, 插入记录
-for i in range(100):
+for i in range(50):
     cur.execute(ins_sql)
 
 # 将插入的记录提交数据库, 记录正式生效
