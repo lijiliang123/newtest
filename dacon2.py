@@ -21,6 +21,9 @@ ins_sql = '''INSERT INTO mybook_tbl \
              (book_title, book_author, publish_date)\
              VALUES ("天下无贼", "刘德华", "2022-5-5")
 '''
+
+"""
+创建表语句
 crt_sql = """CREATE TABLE person_salary_tbl (
    id INT,
    FIRST_NAME CHAR(20) NOT NULL,
@@ -28,6 +31,7 @@ crt_sql = """CREATE TABLE person_salary_tbl (
    INCOME FLOAT )"""
 
 cur.execute(crt_sql)
+"""
 
 # 游标执行SQL语句, 插入记录
 for i in range(100):
