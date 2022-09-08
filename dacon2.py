@@ -18,6 +18,7 @@ cur = db.cursor()
 
 # SQL语句
 query_sql = "select * from mybook_tbl"
+count_sql = "select count(*) from mybook_tbl"
 ins_sql = '''INSERT INTO mybook_tbl \
              (book_title, book_author, publish_date)\
              VALUES ("风雨无阻", "刘德华", "2022-9-7")
@@ -44,6 +45,10 @@ db.commit()
 # 游标执行SQL语句查询，返回记录数量int
 rs = cur.execute(query_sql)
 print('总记录数：', rs, '条')
+
+# 利用count(*)函数获取表中记录总数 --2022/9/8 11:05 am
+ct = cur.execute(count_sql)
+print('总记录数：', ct)
 
 # 利用查询结果（int），cur.fetchone 逐条输出数据库记录
 for i in range(rs):
