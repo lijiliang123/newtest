@@ -8,6 +8,7 @@ import pymysql
    打开库表：     use xxx(database name); 
    查看库表：     show tables;
    查看库表结构：  desc xxx(table name);
+   python data migrate to this new computer on 2022-9-8
 """
 
 # 建立数据库连接实例
