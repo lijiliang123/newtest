@@ -19,7 +19,7 @@ cur = db.cursor()
 query_sql = "select * from mybook_tbl"
 ins_sql = '''INSERT INTO mybook_tbl \
              (book_title, book_author, publish_date)\
-             VALUES ("天下无贼", "刘德华", "2022-5-5")
+             VALUES ("风雨无阻", "刘德华", "2022-9-7")
 '''
 
 """
@@ -34,7 +34,7 @@ cur.execute(crt_sql)
 """
 
 # 游标执行SQL语句, 插入记录
-for i in range(50):
+for i in range(30):
     cur.execute(ins_sql)
 
 # 将插入的记录提交数据库, 记录正式生效
