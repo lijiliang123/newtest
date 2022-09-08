@@ -49,6 +49,9 @@ print('总记录数：', rs, '条')
 # 利用count(*)函数获取表中记录总数 --2022/9/8 11:05 am
 ct = cur.execute(count_sql)
 print('总记录数：', ct)
+"""
+It's not the latest version.
+"""
 
 # 利用查询结果（int），cur.fetchone 逐条输出数据库记录
 for i in range(rs):
