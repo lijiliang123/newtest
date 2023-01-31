@@ -63,3 +63,5 @@ with open('猜一猜.txt', 'rb') as f:
         #    break
         #else:
         #    print(line)
+
+# amend on 2023-1-31 by thomas
