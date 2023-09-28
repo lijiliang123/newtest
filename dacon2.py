@@ -9,6 +9,7 @@ import pymysql
    查看库表：     show tables;
    查看库表结构：  desc xxx(table name);
    python data migrate to this new computer on 2022-9-8
+   mysql is commit on 2023-9-28
 """
 
 # 建立数据库连接实例
