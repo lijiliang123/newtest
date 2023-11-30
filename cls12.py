@@ -21,6 +21,7 @@ class Student:
     # 类方法，参数固定为cls
     def total(cls):
         print("instance number:{0}".format(cls.number))
+        return
 
     # 定义静态方法，前面需要用到修饰符@staticmethod
     @staticmethod
@@ -87,3 +88,5 @@ class SubStudent(Student):
 substu1 = SubStudent("儿子", 90, 18)
 # substu1.show()
 substu1.reshow()
+print(substu1.total())
+print('对象共被初始化次数：', substu1.number)
