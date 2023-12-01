@@ -49,9 +49,9 @@ match = {1: "一",
 
 times = 10
 while times >= 1:
-    stu = "stu" + str(times)
+
     # 数据字典结构，用[key]直接访问,取出value后与前一个字符串拼接
-    stu = Student("张" + match[times], random.randint(10, 100))
+    stu = Student("李" + match[times], random.randint(50, 100))
     print(stu.show())
     # property装饰器伪装后的私有变量，以属性形式直接引用
     print(stu.dscore)
@@ -85,8 +85,11 @@ class SubStudent(Student):
         SubStudent.__show(self)
 
 
-substu1 = SubStudent("儿子", 90, 18)
+substu1 = SubStudent("儿子", 80, 18)
 # substu1.show()
 substu1.reshow()
 print(substu1.total())
 print('对象共被初始化次数：', substu1.number)
+
+# 外部调用类的私有变量/方法, 使用: 对象._类名__变量名（或方法名）访问私有变量或私有方法
+print(substu1._Student__dscore)
