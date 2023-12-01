@@ -54,3 +54,27 @@
 2019-03-04 17:02:46,751--__main__--DEBUG--This is DEBUGGING
 2019-03-04 17:02:49,949--__main__--WARNING--This is WARNING
 2019-03-04 17:02:58,500--__main__--INFO--LOG FINISHED
+2023-12-01 17:12:31,299--__main__--INFO--This is a log info
+2023-12-01 17:12:31,300--__main__--DEBUG--This is DEBUGGING
+2023-12-01 17:12:31,300--__main__--WARNING--This is WARNING
+2023-12-01 17:12:31,300--__main__--INFO--LOG FINISHED
+2023-12-01 17:28:00,279--__main__--INFO--This is a log info
+2023-12-01 17:28:00,279--__main__--DEBUG--This is DEBUGGING
+2023-12-01 17:28:00,279--__main__--WARNING--This is WARNING
+2023-12-01 17:28:00,279--__main__--INFO--LOG FINISHED
+2023-12-01 17:28:29,398--__main__--INFO--This is a log info
+2023-12-01 17:28:29,398--__main__--DEBUG--This is DEBUGGING
+2023-12-01 17:28:29,398--__main__--WARNING--This is WARNING
+2023-12-01 17:28:29,398--__main__--INFO--LOG FINISHED
+2023-12-01 17:28:52,394--__main__--INFO--This is a log info
+2023-12-01 17:28:52,394--__main__--DEBUG--This is DEBUGGING
+2023-12-01 17:28:52,394--__main__--WARNING--This is WARNING
+2023-12-01 17:28:52,394--__main__--INFO--LOG FINISHED
+2023-12-01 17:31:31,934--__main__--INFO--This is a log info
+2023-12-01 17:31:31,934--__main__--DEBUG--This is DEBUGGING
+2023-12-01 17:31:31,934--__main__--WARNING--This is WARNING
+2023-12-01 17:31:31,934--__main__--INFO--LOG FINISHED
+2023-12-01 17:31:53,781--__main__--INFO--This is a log info
+2023-12-01 17:31:53,781--__main__--DEBUG--This is DEBUGGING
+2023-12-01 17:31:53,781--__main__--WARNING--This is WARNING
+2023-12-01 17:31:53,781--__main__--INFO--LOG FINISHED

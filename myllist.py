@@ -8,10 +8,13 @@ for i in range(geshu):
 else:                                             # for 循环的else 语句，用于超出既定计数后的处理
     print('输入结束！')
 
+
 del shuiguolist[0]                                # 删除预置的第1个水果项
 print('您想要的水果分别是：', shuiguolist)        # 输出刚才已输入的List列表数据
-print('另外一种显示方法：')
+print('另外一种显示方法：', end='')
 for item in shuiguolist:
-    print(item, end='  ')
+    print(item, end=' | ')
 
-
+print('\n')
+shuiguolist.reverse()
+print('倒过来显示：', shuiguolist)
