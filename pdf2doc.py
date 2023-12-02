@@ -4,7 +4,7 @@
 from pdf2docx import parse
 
 pdf_file = 'sample.pdf'
-docx_file = 'sample2.docx'
+docx_file = 'sample.docx'
 
 # convert pdf file into docx file
 parse(pdf_file, docx_file)
