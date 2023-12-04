@@ -46,7 +46,8 @@ class MyFormula(object):
 
 
 print(__name__)
-# __name__ 是当前python文件的一个属性，其值为：__main__
+# __name__ 是python文件的内置变量，指当前模块文件的名称，其值为：__main__
+# 被导入模块的__name__,值为其对应的模块名称，并不是__main__。
 
 if __name__ == '__main__':
 
