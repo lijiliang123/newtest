@@ -45,17 +45,22 @@ class MyFormula(object):
         return a * b * c
 
 
-# 类对象初始化
-mynum = MyFormula(0, 0, 0)
+print(__name__)
+# __name__ 是当前python文件的一个属性，其值为：__main__
 
-num = int(input('Pls input any number: '))
-print('The number absolute value is: ', mynum.jdz(num))
+if __name__ == '__main__':
 
-lgh = int(input('Pls input the length: '))
-wdt = int(input('Pls input the width: '))
-print('The area is:', mynum.area(lgh, wdt), '平方米')
+    # 类对象初始化
+    mynum = MyFormula(0, 0, 0)
 
-lgh = int(input('Pls input the length: '))
-wdt = int(input('Pls input the width: '))
-hgt = int(input('Pls input the height: '))
-print('The 体积 is:', mynum.tj(lgh, wdt, hgt), '立方米')
+    num = int(input('Pls input any number: '))
+    print('The number absolute value is: ', mynum.jdz(num))
+
+    lgh = int(input('Pls input the length: '))
+    wdt = int(input('Pls input the width: '))
+    print('The area is:', mynum.area(lgh, wdt), '平方米')
+
+    lgh = int(input('Pls input the length: '))
+    wdt = int(input('Pls input the width: '))
+    hgt = int(input('Pls input the height: '))
+    print('The 体积 is:', mynum.tj(lgh, wdt, hgt), '立方米')
